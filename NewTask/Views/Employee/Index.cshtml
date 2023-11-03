@@ -1,0 +1,13 @@
+﻿@model List<Employee>
+
+
+    @foreach (var employee in Model)
+    {
+    <div class="text-center">
+        <h1 class="display-4">Employee</h1>
+        <p> Adi:@employee.Name</p>
+        <p> Soyadi:@employee.Surname</p>
+        <p> Vezife:@employee.Profession</p>
+        <p> Elaqe nomresi:@employee.PhoneNumber</p>
+    </div>
+}
